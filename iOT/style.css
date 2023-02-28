@@ -1,0 +1,578 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    position: relative;
+}
+header{
+    /* height: 20vh; */
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    background-color: #ECF3FF;
+}
+.header--top{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    /* justify-content: center; */
+    /* align-items: center; */
+    padding: 1.8vh 3vw;
+    /* height: 8vh; */
+    font-size: 0.7rem;
+    /* background-color:gray ; */
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+        font-family: 'Ubuntu', sans-serif;
+        /* font-family: Manrope; */
+        font-family: 'Varela Round', sans-serif;
+}
+.header--top--left {
+    display: flex;
+    align-items: center;
+}
+.header--top--right {
+    display: flex;
+    align-items: center;
+    display: flex;
+    align-items: center;
+}
+.top--icon{
+    height: 5vh;
+    width: auto;
+}
+.contactUs{
+    padding:2vh 2vw;
+    background-color: rgb(240,240,240);
+}
+.header--bottom {
+    padding: 0vh 3vw;
+    /* height: 12vh; */
+    /* background-color: #ECF3FF;; */
+    font-size: 1rem;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header--bottom--left{
+    display: flex;
+    justify-content: center;
+}
+.logo--top {
+    height: 8vh;
+}
+.header--bottom--left > input{
+    /* display: flex;
+    align-items: center; */
+    cursor: pointer;
+    margin-left: 1.6vw;
+    padding: 0.8vh 2vw;
+    border-radius: .2rem;
+    width: 10vw;
+    background-color: #ECF3FF;
+}
+.header--bottom--right{
+    display: flex;
+    align-items: center;
+}
+.header--bottom--right--tabs{
+    overflow: hidden;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+        font-family: 'Ubuntu', sans-serif;
+        /* font-family: Manrope; */
+        font-family: 'Varela Round', sans-serif;
+    
+}
+.header--bottom--right--tabs > li{
+    float: left ;
+    margin-right: 1.8vw;
+}
+.K{
+    /* height: 5vh; */
+    margin-left: 1vw;
+    padding: 2vh 1.5vw;
+    background-color: #005DF2;
+    color: whitesmoke;
+    border-radius: 2rem;
+    /* z-index: 1; */
+}
+
+.main1{
+    background-image: url("background1--main.svg");
+    height: auto;
+    padding: 5vh 10vw 0 10vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.main1--left--up{
+    width: 35vw;
+
+    /* margin-left: 10vw; */
+    /* margin-top: 5vh; */
+}
+.main1--left--up >h3{
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+        font-family: 'Ubuntu', sans-serif;
+        /* font-family: Manrope; */
+        font-family: 'Varela Round', sans-serif;
+}
+.main1--left--up--buttonContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2vh;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+        font-family: 'Ubuntu', sans-serif;
+        /* font-family: Manrope; */
+        font-family: 'Varela Round', sans-serif;
+        /* font-size: 1rem; */
+    /* width: 40%; */
+    /* margin-top: 5vh; */
+}
+.main1--left--up--button1{
+    padding:1vh 1vw;
+    background-color: #EA9212;
+    padding: 2vh 4vw;
+    border-radius: 0.6rem;
+    color:whitesmoke;
+    font-size: 1.1rem;
+}
+.main1--left--up--button2{
+    border: 2px solid #005DF2;
+    color: #005DF2;
+    padding: 2vh 4.5vw;
+    border-radius: 0.6rem;
+    font-size: 1.1rem;
+}
+.main1--left--bottom{
+    background-image: url("main1--left--bottom.png");
+    background-repeat: no-repeat;
+    height: 20vh;
+    padding: 3vh 3vw;
+}
+.main1--left--bottom--top--button{
+    display:inline;
+    padding : 1vh 2vw;
+    background-color: #D2E3FF;
+    color: #005DF2;
+    border-radius: 2rem;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+        font-family: 'Ubuntu', sans-serif;
+        /* font-family: Manrope; */
+        font-family: 'Varela Round', sans-serif;
+}
+.orangeText{
+    color: #EA9212;
+    
+}
+.blueText{
+    color: #005DF2;
+}
+.main1--man{
+    height: 90vh;
+    width:40vw;
+    /* margin-left: 10vw; */
+    /* margin-top: 5vh; */
+}
+
+.main2{
+    background-image: url("main2.svg");
+    height:fit-content;
+    padding: 3vh 3vw;
+    
+}
+.main2--container{
+    background-color: white;
+    padding: 5vh 2vw;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+        font-family: 'Ubuntu', sans-serif;
+        /* font-family: Manrope; */
+        font-family: 'Varela Round', sans-serif;
+    
+}
+.main2--cards--container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.main2--card{
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    margin-bottom: 2vh;
+}
+.main2--card--left{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 30vw;
+    background-color: #F0F6FF;
+    border-radius: 0.5rem;
+}
+.main2--card--right{
+    margin-left: 2vw;
+}
+.main2--card--right--button{
+    padding: 2vh 2vw;
+    background-color:#005DF2;
+    width: fit-content;
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.main3{
+    background-image: url("main3.svg");
+    height:fit-content;
+    padding: 1vh 5vw;
+}
+.main3 > center > p{
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+        font-family: 'Ubuntu', sans-serif;
+        /* font-family: Manrope; */
+        font-family: 'Varela Round', sans-serif;
+}
+
+.main4{
+    background-image: url("main4.png");
+    height:auto ;
+    /* padding: 1vh 5vw; */
+}
+/* .main4 */
+.main4--container{
+    display: flex;
+    flex-direction: row;
+    padding: 2vh 4vw;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+        font-family: 'Ubuntu', sans-serif;
+        /* font-family: Manrope; */
+        font-family: 'Varela Round', sans-serif;
+}
+.main4--left{
+    width: 50%;
+}
+.main4--right{
+    display: flex;
+    flex-direction: column ;
+}
+.main4--right--card{
+    display: flex;
+    flex-direction: row;
+}
+.main4--right--left{
+    /* background-color: white; */
+    /* display: inline; */
+    border-radius: 0.7rem;
+    width: auto;
+    /* height: fit-content; */
+    margin-right: 2vw;
+    /* border: 1px solid black; */
+}
+.main4--left > img{
+    width: 90%;
+}
+.main4--right--right{
+    width: 70%;
+}
+.main4--right--right > span{
+    color:  #005DF2;
+    height: 1.4rem;
+}
+.main5{
+    background: rgb(240,240,240);
+}
+.main5--container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1vh 3vw;
+    /* fle */
+}
+
+.main5--card{
+    background-color: white;;
+    padding: 1vh 1vw;
+    width:280px;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+        font-family: 'Ubuntu', sans-serif;
+        /* font-family: Manrope; */
+        font-family: 'Varela Round', sans-serif;
+}
+.main5--button{
+    padding: 1vh 4vw;
+    background-color: #005DF2;
+    color: white;
+    border-radius: 0.5rem;
+    width: fit-content;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+        font-family: 'Ubuntu', sans-serif;
+        /* font-family: Manrope; */
+        font-family: 'Varela Round', sans-serif;
+}
+.main5--viewMore{
+    padding : 1vh 2vw;
+    display: inline;
+    border: 1px solid #005DF2;
+    color: #005DF2;
+    border-radius: 0.3rem;
+}
+.dim{
+    color:gray;
+}
+
+.main6{
+    background-image: url("main6.png");
+    height:auto;
+    padding: 2vh 0;
+}
+.main6 > center > h3{
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+        font-family: 'Ubuntu', sans-serif;
+        /* font-family: Manrope; */
+        font-family: 'Varela Round', sans-serif;
+}
+.main6--container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1vh 0;
+}
+.main6--card{
+    background-color: white;
+    padding: 1vh 1vw;
+    width: 40vw;
+
+}
+.main6--card > center > h1,.main6--card>center>h3 {
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+        font-family: 'Ubuntu', sans-serif;
+        /* font-family: Manrope; */
+        font-family: 'Varela Round', sans-serif;
+}
+.main6--card > center > p{
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 1rem;
+        font-family: 'Varela Round', sans-serif;
+}
+.main6--bottom--container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+.main6--bottom--cantainter > img{
+    padding:1vh 2vw;
+    background-color: white;
+    box-shadow: inset;
+}
+
+footer{
+    /* height: 100vh; */
+    height: fit-content;
+    background-color: #061C41;
+    padding: 7vh 3vw;
+}
+.footer--container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height:50vh;
+
+}
+.footer--column1{
+    padding:1vh 2vw;
+    flex:2;
+    /* background-color: white; */
+    /* height: 40vh; */
+}
+.footer--column1 > p{
+    font-family: 'ubuntu';
+    margin-top: 10%;
+    color: gray;
+    
+}
+.footer--column2{
+    padding: 2vh;
+    color: white;
+    flex:1.5;
+}
+.footer--column2 > ul > li{
+    color : gray;
+    padding: 1vh 0;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+        font-family: 'Ubuntu', sans-serif;
+        /* font-family: Manrope; */
+        font-family: 'Varela Round', sans-serif;
+}
+.footer--column3{
+    background-color: #061C41;
+    color: white;
+    flex:2;
+}
+.footer--column3 > ul > li{
+    color : gray;
+    padding: 1vh 0;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+        font-family: 'Ubuntu', sans-serif;
+        /* font-family: Manrope; */
+        font-family: 'Varela Round', sans-serif;
+}
+.footer--column4{
+    color: white;
+    flex:2.5;
+    background-color: #061C41;
+}
+.footer--column4 > input{
+    background-color:#061C41;
+    color: white;
+    border: 1px solid white;
+    padding : 2vh 2vw;
+    border-radius: 0.4rem;
+    font-size: 1rem;
+}
+.footer--column4 > h1{
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+        font-family: 'Ubuntu', sans-serif;
+        /* font-family: Manrope; */
+        font-family: 'Varela Round', sans-serif;
+        font-size: 1.5rem;
+}
+.footer--column4 > .sub{
+    padding: 1vh 2vw;
+    background-color: #EA9212;
+    color: #061C41;
+    display: inline;
+    border-radius: 0.4rem;
+    font-size: 1.6rem;
+    font-family: 'ubuntu';
+}
+.aftersearchbar{
+    display: none;
+    /* background-color: green; */
+}
+.aftersearchbar > img{
+    position: absolute;
+    left :80%;
+    top :5%;
+    border: 3px solid red;
+}
+.aftersearchbar--input{
+    position: absolute;
+    left: 10%;
+    top: 8%;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 0.4rem;
+    padding: 1vh 2vw;
+    width: 80vw;
+    height: 10vh;
+    font-size: 1rem;
+    font-family: 'ubuntu';
+}
+.aftersearchbar--dropdownmenu{
+    display: none;
+    position : absolute;
+    left : 10%;
+    top:10%;
+    background-color: white;
+    width: 80%;
+    font-family: 'Varela Round';
+    padding : 3vh 5vw;
+    color: black;
+    border-radius : 1rem;
+    font-size: 0.8rem;
+    font-weight: 100;
+}
+.aftersearchbar--dropdownmenu > h2{
+    padding: 3vh 8vw;
+}
+.training{
+    cursor: pointer;
+
+}
+.display{
+    display :visible;
+}
+.training--hover{
+    display: none;
+        position: absolute;
+            top: 5;
+            left: 5%;
+            background-color: white;
+            /* height: 60vh; */
+            width: 80vw;
+}
+.training--hover--container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.hover--left{
+    flex:3;
+    font-family: 'ubuntu';
+    /* background-color: gray; */
+    padding: 1vh 2vw;
+    /* height: ; */
+}
+.hover--left > ul > li{
+    color: gray ;
+}
+.hover--middle{
+    flex:3;
+    font-family: 'ubuntu';
+    color: gray ;
+}
+.hover--right{
+    flex:4;
+    font-family: 'ubuntu';
+}
+
+
+@media (max-width: 600px) {
+    body{
+        width: 100vw;
+    }
+    .main1{
+        display: block;
+    }
+    .main1--left--up--buttonContainer{
+        display: none;
+    }
+    .main1--left--up > h1{
+        /* display: block; */
+        width: 80vw;
+    }
+    .main1--left--up > h3{
+        width: 80vw;
+    }
+    .main1--right > img{ 
+        width: 80vw;
+    }
+
+    .main5--container{
+        display : flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .main4--container{
+        display: block;
+    }
+
+    .footer{
+        background-color: #061C41;
+    }
+
+    .footer--container{
+        display : block;
+        background-color:#061C41 ;
+    }
+        .footer--column4>.sub{
+            display: block;
+        }
+    .display{display:none;}
+    .training--hover{
+        display: none !important;;
+    }
+}
